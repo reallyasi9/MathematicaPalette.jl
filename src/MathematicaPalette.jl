@@ -175,14 +175,14 @@ const _default_theme = Theme(
   #key_max_columns=4
 
 )
-const MathematicaRedTheme = _default_theme
-const MathematicaGreenTheme = _default_theme
+const MathematicaRedTheme = Theme(_default_theme)
+const MathematicaGreenTheme = Theme(_default_theme)
 MathematicaGreenTheme.default_color=MathematicaGreen
-const MathematicaTealTheme = _default_theme
+const MathematicaTealTheme = Theme(_default_theme)
 MathematicaTealTheme.default_color=MathematicaTeal
-const MathematicaBlueTheme = _default_theme
+const MathematicaBlueTheme = Theme(_default_theme)
 MathematicaBlueTheme.default_color=MathematicaBlue
-const MathematicaPurpleTheme = _default_theme
+const MathematicaPurpleTheme = Theme(_default_theme)
 MathematicaPurpleTheme.default_color=MathematicaPurple
 
 end # module
